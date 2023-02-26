@@ -1,0 +1,17 @@
+@import "Variables";
+@import "App";
+
+body {
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
