@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-radius: .375rem;
+    border-radius: .575rem;
     box-shadow: 0 3px 5px #151414;
 
     P{
@@ -14,6 +14,8 @@
     }
     .IdAdvice{
         color:$NeonGreen;
+        letter-spacing: .3rem;
+        font-size: .8rem;
     }
     .Advice{
         color: $LightCyan;
@@ -45,19 +47,28 @@ button{
         transform: scale(.7);
     }
 }
-@media (min-width:376px){
+@media (min-width:376px)and (max-width:599px){
     .Card{
         width: 75%;
         max-width: 444px;
         padding: 2%;
-    
     }
 }
 @media (min-width:600px) {
     .Card{
+        width: 75%;
+        max-width: 444px;
+        padding: 2%;
+        padding-bottom: 3%;
         .Divider{
             background-image: url(../assets/images/pattern-divider-desktop.svg);
             width: 100%;
+        }
+    }
+    button{
+        padding:.8rem;
+        svg{
+            transform: scale(.8);
         }
     }
 }

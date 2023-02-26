@@ -32,7 +32,7 @@ export function Card(){
         <Fragment>
             <div className="Card">
                 <p className="IdAdvice">
-                Advice #{advice.id}
+                ADVICE #{advice.id}
                 </p>
                 <p className="Advice">
                 "{advice.advice}"
